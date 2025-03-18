@@ -1,11 +1,93 @@
 /* styles.css */
 
+.card {
+    width: 800px;
+    padding-bottom: 5px;
+}
+
+.home {
+    background-color: rgb(209, 225, 235);
+}
+
+.recipe {
+    background-color:rgb(248, 245, 186);
+}
+
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 42px;
+    padding: 20px;
 }
+
 a {
     font-size: 30px;
+    
+}
 
+#home {
+    background-color: rgb(235, 235, 235);
+   
+}
+
+.recipe-name {
+    background-color: rgb(204, 236, 204);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.description {
+    background-color: rgb(215, 238, 234);
+    font-size: 24px;
+}
+
+.ingredients {
+    background-color: rgba(188, 170, 218, 0.527);
+}
+
+.steps {
+    background-color: rgba(21, 128, 0, 0.308);
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0 10px;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+ol {
+    margin-bottom: 30px;
+}
+
+li {
+    padding-top: 10px;
+}
+
+.home-link {
+    font-size: 20px;
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: -5px;
 }
