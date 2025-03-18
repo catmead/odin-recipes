@@ -9,7 +9,6 @@
     padding-bottom: 5px;
 }
 
-
 .home {
     background-color: rgb(209, 225, 235);
     padding-bottom: 20px;
@@ -45,11 +44,12 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    border: 12px double rgb(0, 0, 0);
 }
 
 .details {
     background-color: whitesmoke;
-    border: 8px solid rgb(187, 185, 185);
+    border: 8px outset rgb(124, 124, 124);
     margin: 20px;
     padding-bottom: 10px;
     
